@@ -17,14 +17,9 @@
                 17,9 -> 18
                 18 -> 18
                 Примечание. Не использовать условные операторы. Разрешено использовать только математические операции и методы библиотеки Math.
-                
-               
+                              
              */
-            double input = Convert.ToDouble(Console.ReadLine());
-
-            double result = Math.Round(input*2)/2; //ДОДУМАЛСЯ НЕ САМ - ПОДСМОТРЕЛ
-
-
+         
             Console.WriteLine(result);
             Console.ReadKey();
         }
