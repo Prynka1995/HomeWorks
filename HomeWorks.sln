@@ -74,7 +74,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4_6", "Task4_6\Task4_6.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4_7", "Task4_7\Task4_7.csproj", "{6D8317C7-876A-4C78-88FE-180E8D703279}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4_8-", "Task4_8\Task4_8-.csproj", "{B2C15B86-5E6C-439B-8412-9D5DF7453E9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4_8", "Task4_8\Task4_8.csproj", "{B2C15B86-5E6C-439B-8412-9D5DF7453E9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
