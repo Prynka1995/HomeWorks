@@ -20,7 +20,7 @@
             }
             int res = a;
             if (b == 1 || a == 1)
-                Console.WriteLine("Ответ = {0}", a);
+                Console.WriteLine("a^b = {0}", a);
             else
             {
                 while (i < b)
@@ -28,7 +28,7 @@
                     res = res * a;
                     ++i;
                 }
-                Console.WriteLine("Ответ = {0}", res);
+                Console.WriteLine("a^b = {0}", res);
             }
             Console.ReadKey();
         }

@@ -6,8 +6,12 @@
         {
             //Вводится натуральное число n. Найти n! Например, 6! = 1 * 2 * 3 * 4 * 5 * 6.
 
-            Console.WriteLine("Введите число n");
-            int n = Convert.ToInt32(Console.ReadLine());
+            int n = 0;
+            while (n < 1)
+            {
+                Console.WriteLine("Введите число n больше 0");
+                n = Convert.ToInt32(Console.ReadLine());
+            }
 
             int i = 1;
             int inc = i;

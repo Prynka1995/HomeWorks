@@ -15,13 +15,13 @@
             {
                 Console.WriteLine("Введите число a больше 0");
                 a = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Введите степень b числа a больше 0");
+                Console.WriteLine("Введите степень b числа a меньше 0");
                 b = Convert.ToInt32(Console.ReadLine());
 
             }
             int res = a;
             if (b == 1 || a == 1)
-                Console.WriteLine("Ответ = 1/{0}", a);
+                Console.WriteLine("a^b = 1/{0}", a);
             else
             {
                 while (i < -b)
@@ -29,7 +29,7 @@
                     res = res * a;
                     ++i;
                 }
-                Console.WriteLine("Ответ = 1/{0}", res);
+                Console.WriteLine("a^b = 1/{0}", res);
             }
             Console.ReadKey();
         }   

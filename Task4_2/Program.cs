@@ -7,13 +7,13 @@
             //Вводится натуральное число n. Найти 1 + 1/2 + 1/3 + … + 1/n
             double res = 0;
             double i = 2;
-            double n = 2;
-            double input=0;
+            //double n = 2;
+            double n=0;
 
-            while (input < 1)
+            while (n < 1)
             {
                 Console.WriteLine("Введите число больше 0");
-                input = Convert.ToDouble(Console.ReadLine());
+                n = Convert.ToDouble(Console.ReadLine());
             }
 
             if (n == 1)

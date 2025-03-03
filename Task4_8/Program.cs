@@ -7,31 +7,31 @@
             //yellow-star Вводится число. Вывести его в зеркальном виде. Количество цифр в числе заранее неизвестно. Не использовать строк
 
             Console.WriteLine("Введите число n");
-            int n = Convert.ToInt32(Console.ReadLine()); //кол-во цифр в числе n = i
+            int n = Convert.ToInt32(Console.ReadLine()); //
 
-            #region Находим кол-во цифр
+                                    #region Находим кол-во цифр
             int res = n;
-            int k = 0;
+            int k = 0; // k = кол-во цифр в числе n
 
             while (res != 0)
             {
                 res = res / 10;
                 k++;
             }
-            #endregion
+             #endregion
 
-            #region Отзеркаливаем
+                                    #region Отзеркаливаем
 
             int a = 100;
             int i = 0;
 
-            if (k == 1) //Получаем первую цифру
+            if (k == 1)
             {
                 Console.WriteLine(n);
             }
             else
             {
-                Console.Write(n % 10);
+                Console.Write(n % 10); 
             }
             while (i < k)
             {

@@ -7,19 +7,15 @@
             //Вводится n. Определить, является ли оно степенью 2 - ки ?
             //n = 2^k.
 
-            int n = 4;
-            while (n < 5)
+            int n = 0;
+            while (n < 1)
             {
                 Console.WriteLine("Введите число больше 0");
                 n = Convert.ToInt32(Console.ReadLine());
             }
-            if (n == 1 || n == 2)
+            if (n == 1 || n == 2 || n == 4)
             {
                 Console.WriteLine("n является степенью 2ки");
-            }
-            else if (n == 4)
-            {
-                Console.WriteLine("n НЕ является степенью 2ки");
             }
             else
             {

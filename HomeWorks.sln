@@ -55,7 +55,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{4DC38482
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{14713206-4576-4648-B8E0-E8F1F304D4B4}"
 	ProjectSection(SolutionItems) = preProject
-		ДЗ.txt = ДЗ.txt
+		ДЗ4.txt = ДЗ4.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4_1", "Task4_1\Task4_1.csproj", "{E634A579-1548-4DBF-942D-C4214C2194A1}"
