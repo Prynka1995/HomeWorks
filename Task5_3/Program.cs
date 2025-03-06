@@ -16,18 +16,28 @@
                 Console.Write("{0} ", array[i]);
             }
 
-            int max = array[0];
-            int min = array[0];
+            int maxValue = array[0];
+            int minValue = array[0];
+            int maxIndex = 0;
+            int minIndex = 0;
+            int index = 0;
 
             foreach (int a in array)
             {
-                if (a > max)
-                    max = a;
-                if (a < min)
-                    min = a;
+                if (a > maxValue)
+                {
+                    maxValue = a;
+                    maxIndex = index;
+                }
+                if (a < minValue)
+                {
+                    minValue = a;
+                    minIndex = index;
+                }
+                index++;
             }
             Console.WriteLine();
-            Console.WriteLine("max = {0}, min = {1}", max, min);
+            Console.WriteLine("max [index, value] = [{0},{1}], min [index, value] = [{2},{3}]",maxIndex,maxValue,minIndex,minValue);
             Console.ReadKey();
         }
     }
