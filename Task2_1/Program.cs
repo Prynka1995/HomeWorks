@@ -55,8 +55,6 @@
             Console.Write("c=");
             int c = Convert.ToInt32(Console.ReadLine());
 
-
-
             int t=a;
             a = c;
             c = b;
