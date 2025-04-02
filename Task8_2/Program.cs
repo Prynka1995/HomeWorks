@@ -15,9 +15,10 @@
                 ValidateAge(a);
                 Console.WriteLine("Оптимальный возраст");
             }
-            catch (ArgumentException ex)
+            catch (Exception ex)
+            //Метод может вернуть ArgumentException или ArgumentOutOfRangeException, поэтому в основной программе нужно либо обрабатывать оба этих типа, либо оставить один catch, но с типом Exception 
             {
-                Console.WriteLine($"Некорректный возвраст - {ex.Message}");
+                Console.WriteLine(ex.ToString());
             }
             finally
             {

@@ -37,6 +37,11 @@
             {
                 Console.WriteLine($"Деление на 0 - {ex.Message}");
             }
+            //Можно добавить третий catch для обработки всех остальных исключений
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
             Console.ReadKey();
         }
     }
