@@ -70,13 +70,13 @@ namespace Task9_2
         public BankAccount()
         {
             Random rnd = new Random();
-            string str = "";
-            //StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < 4; i++)
-            {
-                str += rnd.Next(0, 10);
-            }
-            _accountNumber = Convert.ToInt32(str);
+            //string str = "";
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    str += rnd.Next(0, 10);
+            //}
+            //_accountNumber = Convert.ToInt32(str);
+            _accountNumber = rnd.Next(1000,10000);
             AccountNumber = _accountNumber;
             TotalAccounts++;
         }
