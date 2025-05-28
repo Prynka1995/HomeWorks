@@ -61,7 +61,9 @@
             DeviceState?.Invoke("Door", doorStatus);
         }
     }
-    //
+    /// <summary>
+    /// 
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
